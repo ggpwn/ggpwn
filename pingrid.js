@@ -64,7 +64,7 @@
             item.style.position = 'absolute';
             item.style.webkitBackfaceVisibility = item.style.backfaceVisibility = 'hidden';
             /*item.style[this.transform] = 'translate3d(' + posX + 'px, ' + posY + 'px, 0)';*/
-           item.style[this.transform] = 'translate3d(0, ' + posY + 'px, 0)';
+           item.style[this.transform] = 'translate3d(' + posX + 'px, ' + posY + 'px, 0)';
             
             itemsPosY[itemIndex] += item.getBoundingClientRect().height + gutter;
             
